@@ -1,0 +1,1 @@
+include ':app', ':wellco_googlefitdata'

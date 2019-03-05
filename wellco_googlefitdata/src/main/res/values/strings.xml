@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WellCo_GoogleFitData</string>
+
+    <!-- Exceptions -->
+    <string name="not_connected_exception">GoogleApiClient is not connected!</string>
+    <string name="data_null_exception">GoogleFitSleepData object is null. Did you call getGoogleFitSleepData method?</string>
+</resources>
