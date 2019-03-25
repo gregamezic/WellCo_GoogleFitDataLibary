@@ -37,63 +37,31 @@ public class GoogleFitSleepData {
         return sleepDuration;
     }
 
-    public void setSleepDuration(int sleepDuration) {
-        this.sleepDuration = sleepDuration;
-    }
-
     public int getSleepDurationWoSleep() {
         return sleepDurationWoSleep;
-    }
-
-    public void setSleepDurationWoSleep(int sleepDurationWoSleep) {
-        this.sleepDurationWoSleep = sleepDurationWoSleep;
     }
 
     public int getDeepSleep() {
         return deepSleep;
     }
 
-    public void setDeepSleep(int deepSleep) {
-        this.deepSleep = deepSleep;
-    }
-
     public int getLightSleep() {
         return lightSleep;
-    }
-
-    public void setLightSleep(int lightSleep) {
-        this.lightSleep = lightSleep;
     }
 
     public int getREMSleep() {
         return REMSleep;
     }
 
-    public void setREMSleep(int REMSleep) {
-        this.REMSleep = REMSleep;
-    }
-
     public long getStartSleep() {
         return startSleep;
-    }
-
-    public void setStartSleep(long startSleep) {
-        this.startSleep = startSleep;
     }
 
     public long getEndSleep() {
         return endSleep;
     }
 
-    public void setEndSleep(long endSleep) {
-        this.endSleep = endSleep;
-    }
-
     public String getSleepCycles() {
         return sleepCycles;
-    }
-
-    public void setSleepCycles(String sleepCycles) {
-        this.sleepCycles = sleepCycles;
     }
 }

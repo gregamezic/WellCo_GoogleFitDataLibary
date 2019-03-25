@@ -2,6 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="si.ijs.wellco_googlefitdata">
 
+    <!--
+    517890102256-7pjs5r8iirfhpekttm4fef3n837sju10.apps.googleusercontent.com
+    -->
+
+    <uses-permission android:name="android.permission.BODY_SENSORS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
